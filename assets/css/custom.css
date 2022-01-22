@@ -1,0 +1,43 @@
+/**
+ *
+ * Type your custom styles
+ *
+ */
+
+
+
+/**
+ * Additional styles for Anime demo
+ */
+/* Wide container */
+.content-wrap {
+    max-width: none;
+}
+
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 80px;
+  color: #ff0000;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow2 {
+  font-size: 20px;
+  color: #ff0000;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 20px #60FF42, 0 0 30px #39FF14, 0 0 40px #39FF14, 0 0 50px #39FF14, 0 0 60px #39FF14, 0 0 70px #39FF14, 0 0 80px #39FF14;
+  }
+  
+  to {
+      text-shadow: 0 0 10px #60FF42, 0 0 20px #60FF42, 0 0 30px #1DB700, 0 0 40px #1DB700, 0 0 50px #1DB700, 0 0 60px #1DB700, 0 0 70px #1DB700;
+  }
+}
