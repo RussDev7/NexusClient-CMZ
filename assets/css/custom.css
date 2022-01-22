@@ -4,8 +4,6 @@
  *
  */
 
-
-
 /**
  * Additional styles for Anime demo
  */
@@ -19,25 +17,30 @@ body {
   font-family: cursive;
 }
 
+li {
+  font-size: 15px;
+  font-family: Bahnschrift;
+}
+
 .glow {
   font-size: 80px;
-  color: #ff0000;
+  color: #ffffff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 .glow2 {
   font-size: 20px;
-  color: #ff0000;
+  color: #ffffff;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 20px #60FF42, 0 0 30px #39FF14, 0 0 40px #39FF14, 0 0 50px #39FF14, 0 0 60px #39FF14, 0 0 70px #39FF14, 0 0 80px #39FF14;
+    text-shadow: 0 0 20px #000000, 0 0 30px #2E2E2E, 0 0 40px #2E2E2E, 0 0 50px #2E2E2E, 0 0 60px #2E2E2E, 0 0 70px #2E2E2E, 0 0 80px #2E2E2E;
   }
   
   to {
-      text-shadow: 0 0 10px #60FF42, 0 0 20px #60FF42, 0 0 30px #1DB700, 0 0 40px #1DB700, 0 0 50px #1DB700, 0 0 60px #1DB700, 0 0 70px #1DB700;
+      text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #171717, 0 0 40px #171717, 0 0 50px #171717, 0 0 60px #171717, 0 0 70px #171717;
   }
 }
