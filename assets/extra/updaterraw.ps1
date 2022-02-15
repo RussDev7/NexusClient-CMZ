@@ -1,8 +1,3 @@
-##################################################################
-# Skype : HBankers.77
-##################################################################
-
-
 function Compile-VB ([string] $code)
 {
   $parameters = New-Object System.CodeDom.Compiler.CompilerParameters
